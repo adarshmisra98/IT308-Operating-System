@@ -1,0 +1,12 @@
+The code is written using Eclipse IDE.
+
+To give command line inputs:
+1.Go to Run menu and click Run Configurations.
+2.Click on Arguments tab.
+3.Enter the command (example : input.txt RR 2)
+4.Click on run button.
+
+Assumption: 
+1.Process with same id is not scheduled multiple times.
+2.Processes do not negative have arrival time.
+
