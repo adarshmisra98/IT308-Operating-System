@@ -1,0 +1,32 @@
+Name : Adarsh Misra
+ID: 201601004
+
+This program has been made using Eclipse Photon IDE.
+To run on command line first compile using fo
+
+javac lab3Q1.java
+
+and then run using 
+
+java lab3Q1
+
+For Eclipse (Click on run and enter the input)
+
+Q1:  Input format:vmsim [framesize] [filename] [algorithm_code]
+		  vmsim 5 input.dat lru
+                  vmsim 5 input.dat fifo
+		  vmsim 5 input.dat opt     
+     Seprate function for each algorithm has been created in the file.After taking input 
+     appropriate function is called. Each function prints the output at STDOUT.
+
+Q2:  Compile and run as mentioned above.
+     Input Format: vmgen [range_of_page_reference] [length_of_sequence] [filename]
+     vmgen 10 200 input.dat
+    
+
+Q3: Compile and run as mentioned above.
+    Input Format: vmstats [minframe] [maxframe] [frame_increment] [filename]
+    vmrates.txt is the output file created in the working directory.
+	
+	
+
